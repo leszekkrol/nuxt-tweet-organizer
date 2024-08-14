@@ -6,6 +6,8 @@
 
 This open-source tool is designed for efficient management and filtering of Twitter (X) followers. It allows you to analyze, organize, and optimize your follower list with advanced filtering and data visualization features.
 
+![Zrzut ekranu 2024-08-14 o 21 26 57](https://github.com/user-attachments/assets/bef02cd9-21bd-46e8-b85c-7dba1403c6ca)
+
 ## 📌 Features
 - **Advanced Filtering:** Filter followers based on criteria like engagement, activity, and profile data.
 - **OAuth Integration:** Securely log in and manage your Twitter account.
