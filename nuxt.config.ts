@@ -5,7 +5,10 @@ export default defineNuxtConfig({
   devServer: {
     host: '127.0.0.1',
   },
-  modules: ['nuxt-auth-utils'],
+  modules: [
+    'nuxt-auth-utils',
+    '@nuxt/ui',
+  ],
   runtimeConfig: {
     oauth: {
       x: {
@@ -16,8 +19,5 @@ export default defineNuxtConfig({
     session: {
       maxAge: 60 * 60 * 24 * 7
     },
-  },
-  cookie: {
-    sameSite: 'lax'
   }
 })

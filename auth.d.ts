@@ -1,6 +1,10 @@
 declare module '#auth-utils' {
     interface User {
-        x?: string
+        twitterId?: string
+        username?: string,
+        name?: string,
+        description?: string,
+        profileImage?: string,
     }
 
     interface UserSession {
